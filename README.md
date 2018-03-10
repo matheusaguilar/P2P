@@ -3,6 +3,8 @@ Peer to Peer, vídeo transfer program and reproducer, like stream (Only works in
 
 Project developed in Java.
 
+Used UDP(DatagramSocket) to transfer the files and JavaFX to build the UI.
+
 <h1><b> How to use? </b></h1>
 </br>1) Import this project in NetBeans.
 </br>2) Cut the vídeo file in N pieces, and change the names of the files to video-0, video-1, video-2... video-N.
