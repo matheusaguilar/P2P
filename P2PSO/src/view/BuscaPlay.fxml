@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="349.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BuscaPlayController">
+   <children>
+      <Text layoutX="211.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informações Importantes">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Label layoutX="174.0" layoutY="93.0" text="Lider:" />
+      <Label layoutX="106.0" layoutY="133.0" text="Porta do seu Peer:" />
+      <Label layoutX="80.0" layoutY="171.0" text="Porta dos outros Peers:" />
+      <Label layoutX="74.0" layoutY="226.0" text="Buscar Video por Nome:" />
+      <TextArea fx:id="txtBusca" layoutX="250.0" layoutY="226.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="74.0" layoutY="281.0" text="Buscar Video existente:" />
+      <Button fx:id="btnBuscar" layoutX="420.0" layoutY="226.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Buscar" />
+      <Button fx:id="btnAbrir" layoutX="250.0" layoutY="277.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Abrir" />
+      <TextField fx:id="txtLider" layoutX="250.0" layoutY="89.0" />
+      <TextField fx:id="txtPeer" layoutX="250.0" layoutY="129.0" />
+      <TextField fx:id="txtOutrosPeer" layoutX="250.0" layoutY="167.0" />
+   </children>
+</AnchorPane>
