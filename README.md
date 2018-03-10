@@ -1,7 +1,7 @@
 # P2P
-Peer to Peer, vídeo transfer program, like stream (Only works in the same network).
+Peer to Peer, vídeo transfer program and reproducer, like stream (Only works in the same network).
 
-Java Project.
+Project developed in Java.
 
 <h1><b> How to use? </b></h1>
 </br>1) Import this project in NetBeans.
